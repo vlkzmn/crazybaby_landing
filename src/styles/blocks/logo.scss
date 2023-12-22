@@ -1,0 +1,8 @@
+.logo {
+  display: block;
+  width: 161px;
+  height: 27px;
+
+  @include bgImage(contain, icons, logo, svg);
+  @include hover(filter, drop-shadow(0 0 5px $color-green));
+}

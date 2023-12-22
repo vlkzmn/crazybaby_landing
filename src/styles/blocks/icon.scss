@@ -1,0 +1,13 @@
+.icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+
+  &--menu {
+    @include bgImage(contain, icons, menu, svg);
+  }
+
+  &--cross {
+    @include bgImage(contain, icons, cross, svg);
+  }
+}
